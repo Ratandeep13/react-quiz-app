@@ -10,7 +10,9 @@ function ResultTable(props) {
         <button className="btn btn-sm test-btn"><Link to="/home">Go To Home</Link></button>
       </div>
       <div className="table-row">
-        <div className="column w-80">Question</div>
+        <div className="column w-40">Question</div>
+        <div className="column w-20">Answer</div>
+        <div className="column w-20">Selected Answer</div>
         <div className="column w-20">Status</div>
       </div>
       <div>
@@ -18,7 +20,9 @@ function ResultTable(props) {
           props.list.map((item, index) => {
             return (
             <div className="table-row" key={index}>
-              <div className="column w-80">{item.question}</div>
+              <div className="column w-40">{item.question}</div>
+              <div className="column w-20">{item.answer}</div>
+              <div className="column w-20">{item.selectedOption}</div>
               <div className="column w-20">{item.status}</div>
             </div>
             )
