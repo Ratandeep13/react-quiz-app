@@ -1,0 +1,24 @@
+.table-row {
+  display: flex;
+  border-bottom: 1px solid #d2cdcd;
+  justify-content: space-between;
+  align-items: center
+}
+
+.column {
+  padding: 10px;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.result-table-container {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}

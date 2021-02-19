@@ -1,0 +1,12 @@
+.quiz-section {
+  display: flex;
+  margin-top: 30px;
+}
+
+.quiz-section__left {
+  /*width: 30%;*/
+}
+
+.quiz-section__right {
+  /*width: 70%;*/
+}
